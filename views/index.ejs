@@ -1,0 +1,18 @@
+<!--
+including header content which is common for all pages
+-->
+<%- include layouts/header.ejs %>	
+
+<form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:3000/upload' 
+      method='post' 
+      encType="multipart/form-data">
+        <input type="file" name="sampleFile" />
+        <input type='submit' value='Upload!' />
+    </form>   
+
+<!--
+including footer content which is common for all pages
+-->
+<%- include layouts/footer.ejs %>
