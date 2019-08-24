@@ -5,7 +5,7 @@ Node.js, Express & MySQL
 
 - sudo apt-get update
 - sudo apt-get install mysql-server
-- mysql_secure_installation
+- mysql_secure_installation <br/>
   This utility prompts you to define the mysql root password and other security-related options, including removing remote     access to the root user and setting the root password.
 - sudo ufw allow mysql
   Allow Remote Access
